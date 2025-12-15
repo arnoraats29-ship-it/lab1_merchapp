@@ -15,6 +15,13 @@
 }
 
 
+body {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    
+}
+
+
 
 
 
@@ -45,3 +52,113 @@
     height: auto;
     
 }
+
+
+nav {
+    background-color: var(--color-green);
+    padding: 30px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+
+.links i {
+    color: var(--color-white);
+    font-size: 2.5em;
+}
+
+
+.head h1 {
+    color: black;
+    font-size: var(--fontsize-h2);
+    text-align: center;
+
+}
+
+
+.head div {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.about {
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+.btn {
+    background-color: var(--color-yellow);
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 16px 64px;
+    border-radius: 2em;
+    transition: tranform 0.2s ease-in-out;
+    font-weight: bold;
+    font-size: var(--fontsize-p);
+}
+
+
+.about div {
+    margin-top: 100px;
+    max-width: 80%;
+}
+
+.about div h2 {
+    padding-bottom: 24px;
+}
+
+
+
+.section_merch {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 16px;
+}
+
+#merch_text {
+    text-align: center;
+}
+
+#merch_text h2 {
+    font-size: var(--fontsize-h3);
+
+}
+
+#merch_text p {
+    font-size: var(--fontsize-p);
+    padding-bottom: 82px;
+    padding-top: 32px;
+}
+
+#merch_text h2 {
+    padding-top: 16px;
+}
+
+
+.arrow {
+    padding-bottom: 32px;
+}
+
+
+.arrow i {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
