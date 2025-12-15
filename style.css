@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-green: #0c3c3b;
+  --color-yellow: #ffc53e;
+  --color-white: #f9f3f1;
+  --fontsize-h1: 3.8125em;
+  --fontsize-h2: 3.0625em;
+  --fontsize-h3: 2.4375rem;
+  --fontsize-h4: 1.9375rem;
+  --fontsize-p: 1em;
+}
+
+
+
+
+
+
+
+#startscreen {
+    background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+       
+}
+
+
+#startscreen div {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+#startscreen div img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    
+}
