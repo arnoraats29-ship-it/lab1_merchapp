@@ -67,16 +67,36 @@ nav {
 
 .head h1 {
   font-size: var(--fontsize-h2);
-  text-align: center;
   padding-top: 24px;
+  color: var(--color-white);
 }
 
 .head {
+  position: relative;
   text-align: center;
+
   background-image: url(images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
+  color: var(--color-white);
+  padding: 80px 16px 120px;
  
+}
+
+.head > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+.head::before {
+  
+  position: absolute;
+  inset: 0;
+
+  background: rgba(12, 60, 59, 0.65); 
 }
 
 h1 {
@@ -87,6 +107,7 @@ h1 {
   margin-top: 50px;
   display: inline-block;
 }
+
 
 
 
@@ -114,12 +135,14 @@ h1 {
 .about div {
   max-width: 80%;
   margin-top: 100px;
-  background-color: #0c3c3b;
-  opacity: 50%;
+  background-color: var(--color-green);
+  padding: 32px;
+  border-radius: 8px;
+  opacity: 80%;
 }
 
 .about h2 {
-  padding-bottom: 48px;
+  padding-bottom: 24px;
   color: var(--color-white);
  
 }
@@ -128,8 +151,7 @@ h1 {
   text-align: start;
   color: var(--color-white);
   font-weight: bold;
-  
-  
+  line-height: 1.4;
 }
 
 
@@ -475,8 +497,31 @@ h1 {
   flex-direction: column;
   margin: 0 auto;
   gap: 24px;
-  
+}
 
+.likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10em;
+}
+
+.likes  i {
+  font-size: 10em;
+  background-color: #7b7b7b;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.likes h3 {
+  font-size: var(--fontsize-h4);
+  padding-top: 2em;
+}
+
+.likes div i {
   
 
 }
