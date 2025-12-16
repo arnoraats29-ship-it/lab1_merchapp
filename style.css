@@ -20,6 +20,27 @@ body {
   font-family: Poppins, Arial, sans-serif;
 }
 
+#startscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-green);
+}
+
+
+#startscreen div {
+    width: 100%; text-align: center;
+ } 
+ 
+ #startscreen div img {
+    width: 80%; max-width: 600px; height: auto;
+ }
+
+
+
+
+
 
 nav {
   background-color: var(--color-green);
@@ -172,3 +193,100 @@ nav {
 .reviews span {
   color: var(--color-white);
 }
+
+
+.cart_page {
+    padding: 16px;
+}
+
+
+.arrow_cart a {
+    color: black;
+}
+
+
+.arrow_cart {
+    padding-top: 20px;
+
+}
+
+
+.arrow_cart p {
+    font-size: var(--fontsize-p);
+    
+    padding-top: 20px;
+}
+
+#product {
+    display: flex;
+    gap: 12px;
+    height: auto;
+    padding-top: 46px;
+}
+
+#product img {
+  object-fit: cover;
+}
+
+#product div h4 {
+    font-size: var(--fontsize-h4);
+    padding-bottom: 12px;
+    font-weight: 500;
+}
+
+#product div p {
+    padding-bottom: 16px;
+}
+
+.remove {
+    display: flex;
+    gap: 110px;
+    justify-content: baseline;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.count {
+  display: flex;
+  gap: 10px;
+}
+
+
+.checkout {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  text-align: center;
+
+}
+
+
+.subtotal {
+
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+
+}
+
+
+.btn_checkout {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 2px;
+  background-color: var(--color-yellow);
+  color: black;
+  font-size: var(--fontsize-h4);
+}
+
+
+#green {
+  height: 100%;
+}
+
+
